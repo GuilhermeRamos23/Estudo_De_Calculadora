@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_CSS/calestilo.css">
+    <script src="../_JavaScript/FJS.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="f">
+        
+        <table> 
+            <div class="identi">         
+                <tr >
+                    <h1 style="text-align: center;">Calculadora</h1>
+                    <p id="resultado" style="font-size: 30px;"></p>
+                </tr>
+            </div>    
+                <tr>
+                    <td><button data-limpa onclick=" clean ( )">C</button></td>
+                    <td><button data-apaga onclick="back ()"><</button></td> 
+                    <td><button data-action="porcetagem"onclick="insert ('%')" >%</button></td>  
+                    <td><button data-action="multiplicacao"onclick="insert ('*')">X</button></td> 
+                </tr>
+                <tr>
+                    <td><button onclick="insert ('7')">7</button></td>
+                    <td><button onclick="insert ('8')">8</button></td>
+                    <td><button onclick="insert ('9')">9</button></td>
+                    <td><button data-action="adicao" onclick="insert ('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert ('4')">4</button></td>
+                    <td><button onclick="insert ('5')">5</button></td>
+                    <td><button onclick="insert ('6')">6</button></td>
+                    <td><button data-action="subtracao" onclick="insert ('-')">-</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button  onclick="insert ('1')" class="btn">1</button></td>
+                    <td><button  onclick="insert ('2')" class="btn">2</button></td>
+                    <td><button  onclick="insert ('3')" class="btn">3</button></td>
+                    <td rowspan="2"><button  data-action="igual" onclick="calcular ()"style="height: 115px;">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="insert ('0')" class="btntamanho">0</button></td>
+                    <td ><button  data-action="decimal" onclick="insert ('.')" class="btnteste">.</button></td>  
+                </tr>
+            
+        </table>
+    </div>
+</body>
+</html>

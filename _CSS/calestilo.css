@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(136, 125, 125, 0.877);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.f{
+    position: relative;  
+    
+
+}
+.f{
+    background-color: rgba(90, 82, 82, 0.795);
+    border: solid 1px black;
+    width: 350px;
+    height: 450px;
+    left: 500px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+p#resultado{
+    text-align: right;
+    color: black;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 45px;
+    background-color: aliceblue;
+}
+table tr{
+    display: block;
+
+}
+table tr {
+    position: relative;
+    left: 17px;
+}
+td button{
+    background-color: rgb(94, 94, 92);
+    height: 55px;
+    width: 75px;
+    margin: 0px;
+    border: solid 1px black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+td button:hover {
+    transition: 0.4s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.btn{
+    margin-bottom: 60px;
+}
+.btntamanho{
+    width: 154px;
+    
+}
+.btntamanho{
+    display: block;
+    position: relative;
+    bottom: 60px;
+}
+
+.btnteste{
+    display: block;
+    position: relative;
+    bottom: 60px;
+    left: 0px;
+}
